@@ -3,7 +3,7 @@ html{
 }
 body{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)),
-    url('LibPic.jpg');
+    url('images/le_web.jpg');
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -29,11 +29,18 @@ hr{
     max-width: 90%;
 }
 @media (max-width: 768px) {
-   h1 {
-       font-size: 2.5em; 
-   }
-
-   h3 {
-       font-size: 1em;
-   }
-}
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)),
+        url('images/le_mob.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Lato;
+    }
+    h1 {
+        font-size: 2.5em; 
+    }
+ 
+    h3 {
+        font-size: 1em;
+    }
+ }
